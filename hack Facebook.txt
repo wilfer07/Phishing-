@@ -1,0 +1,27 @@
+Cómo crear una página de inicio de sesión falsa para hackear a alguien [Usuario: Pass]
+
+ 1- Abra el sitio del que desea hacer la página falsa, después de la carga, haga clic derecho y guarde la página como "página web completa"
+
+ 2- ahora abra esa página con el bloc de notas, y presione control + F para acceder a la barra de búsqueda, y luego busque "iniciar sesión"
+
+ 3- detrás de la palabra "inicio de sesión" está escrito .action, no los necesitamos, así que elimine todo lo que haya detrás del inicio de sesión (este tutorial es para PHP, puede ver login.aspx)
+
+ 4- si viste method = "post" cámbialo a method = "GET"
+
+ 5- ok ahora guárdalo como .html
+
+ 6- Abre un nuevo bloc de notas y escribe estos comandos aquí.
+
+ 7- en lugar de Ubicación: target.com, escriba la dirección de su página de inicio de sesión!
+
+ 8- ahora guarde esto como Login.PHP
+
+ 9- Ir a la página web que ofrecen hosts gratuitos.
+
+ 10- ¡Crea una cuenta, obtén tu host y sube ambos archivos!
+
+ 11- ¡Después de eso, solo necesitas darle tu enlace HTML a tu víctima!
+
+ 12- ¡Si él abrió y escribe su información de inicio de sesión, puedes acceder a ella!
+
+ 13- Si observa la fuente PHP, puede ver log.txt que es donde se guarda la información de su víctima.
